@@ -1,17 +1,13 @@
 # Random Models for Signed Directed Social Networks
 
 ## Signed Directed Social Network
-In a social group, the mutual attitude among the members (e.g. persons)
-can be represented by a signed directed network $G = (V, E, s)$, where $V$ the
-vertex set, $E$ the directed-edge set, and the function $s : E → {+, −}$ assigns
-a sign for each directed edge in the network.
-
-In $G$, each vertex $v ∈ V$ represents an individual member, and each
-signed-directed-edge $e ∈ E$ represents the attitude from a source vertex
-(member) to a target vertex. Based on the sign, E can be partitioned as
-$E = E+ ∪ E−$, where $E+ ∩ E− = ∅$, and $E+$ and $E−$ are the set of all
-positive and negative edges, respectively. Therefore, each edge $e ∈ E$ has
+In a signed directed network $G = (V, E, s)$, where $V$ the
+vertex set, $E$ the directed-edge set, a function $s : E → {+, −}$ assigns
+a sign for each directed edge in the network. Therefore, each edge $e ∈ E$ has
 two attributes: sign and direction. A positive edge $e ∈ E+$ directed from a
 member $A$ to another member $B$ indicates the friendly attitude from $A$ to
 $B$. Similarly, a negative edge $e ∈ E−$ directed from a member $A$ to another
 member $B$ indicates a hostile attitude from $A$ to $B$.
+
+
+In this research, we proposed random models to generate a signed directed network that can mimic empirical networks. These models and required theoretical background can be found in my [MSc thesis dissertation, Chapter 3](https://open.library.ubc.ca/media/download/pdf/24/1.0347257/4)
